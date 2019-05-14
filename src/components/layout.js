@@ -9,6 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import './bootstrap.min.css';
 import "./layout.css"
+import Footer from './../components/globals/Footer'
 
 import Navbar from './globals/Navbar';
 
@@ -16,6 +17,7 @@ const Layout = ({ children }) => (
 	<>
 		<Navbar />
 		{ children }
+		<Footer />
 	</>)
 
 Layout.propTypes = {
